@@ -1,4 +1,4 @@
-'''class Solution:
+class Solution:
     def moveZeroes(self, nums: int) -> None:
         self.nums = nums
 
@@ -7,13 +7,6 @@
                 self.nums.append(self.nums[i])
                 self.nums.remove(0)
         
-        return self.nums'''
+        return self.nums
     
-
-
-
-
-x = [[0]]
-x = x + x * 2
-#x[0].append(1)
-print(x)
+
